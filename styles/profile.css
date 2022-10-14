@@ -430,3 +430,61 @@ footer > div {
   justify-content: space-between;
   padding: 2rem;
 }
+
+footer > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  gap: 0.5rem;
+}
+
+footer h5 {
+  height: 40px;
+}
+
+footer button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  width: 170px;
+  height: 32px;
+  border: none;
+  background-color: #0275b1;
+  color: #fff;
+  border-radius: 5px;
+}
+
+footer button:last-child {
+  border: 1px solid #0275b1;
+  color: #0275b1;
+  background-color: transparent;
+}
+
+footer button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+footer button i {
+  width: 16px;
+  height: 16px;
+}
+
+footer button h1 {
+  font-size: 12px;
+}
+
+footer select {
+  width: 270px;
+  height: 32px;
+  border: none;
+  background-color: #fff;
+  color: #222;
+}
+
+footer select:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
