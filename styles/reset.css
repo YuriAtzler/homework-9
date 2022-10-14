@@ -27,12 +27,8 @@ main {
 
 .grid-body {
   grid: main;
-  background-color: red;
-  height: 1000px;
 }
 
 .grid-aside {
   grid: aside;
-  height: 1000px;
-  background-color: blue;
 }
