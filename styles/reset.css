@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  max-width: 100vw;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas: "main aside";
+  grid-template-columns: 850px 290px;
+  gap: 40px;
+}
+
+.grid-body {
+  grid: main;
+  background-color: red;
+  height: 1000px;
+}
+
+.grid-aside {
+  grid: aside;
+  height: 1000px;
+  background-color: blue;
+}
