@@ -1,0 +1,144 @@
+:root {
+  --branco-50: #ffffff;
+  --branco-linhas: #f4f4f4;
+  --branco-100: #f7f9fb;
+  --azul-100: #0275b1;
+  --azul-200: #181818;
+
+  --cinza-100: #747474;
+  --verde: #02b033;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100vw;
+  height: 80px;
+  background-color: var(--branco-50);
+}
+
+.header-item-01 {
+  display: flex;
+}
+.header-item-02 {
+  display: flex;
+  margin-right: 40px;
+}
+
+.logo img {
+  height: 2.875rem;
+  width: 2.875rem;
+  margin: 17px 44px 17px 40px;
+}
+
+.nav {
+  display: flex;
+  font-size: 0.75rem;
+  margin: 0 20px 0 0.8125rem;
+  width: 484px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.875rem;
+  width: 90px;
+}
+
+.header-icon {
+  font-size: 24px;
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
+  color: #0275b1;
+  font-size: 1rem;
+  width: 367px;
+  padding-left: 33px;
+}
+.header-search input {
+  color: #cecece;
+  border: none;
+  height: 100%;
+  margin: 0 20px;
+  font-size: 1rem;
+  width: 100vw;
+}
+.fa-magnifying-glass {
+  margin-right: 25px;
+}
+
+.text-opacity-20 {
+  opacity: 20%;
+}
+
+.header-you {
+  display: flex;
+  width: 330px;
+}
+
+.header-you img {
+  height: 42px;
+  width: 42px;
+  margin-left: 30px;
+}
+
+.header-you .bloco-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.header-you .bloco-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.texto-verde {
+  color: var(--verde);
+}
+
+.texto-cinza {
+  color: var(--cinza-100);
+}
+
+.fa-arrow-right {
+  color: var(--verde);
+  transform: rotate(-45deg);
+}
+
+header .l1 {
+  padding-left: 10px;
+  margin-bottom: 0.6875rem;
+}
+
+header .l2 {
+  margin-left: 10px;
+}
+
+.header-other {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.875rem;
+  width: 90px;
+  font-size: 0.75rem;
+}
+
+.other-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header hr {
+  border: 1px solid var(--branco-linhas);
+}
