@@ -1,0 +1,632 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+:root {
+  --linear-buttons: linear-gradient(180deg, #0077b5 0%, #0e6795 100%);
+
+  --bg-page: #e5e5e5;
+
+  --white-50: #fff;
+  --white-100: #f7f9fb;
+  --white-150: #fcfdfd;
+
+  --black-50: #181818;
+  --blue-50: #0275b1;
+
+  --gray-50: #747474;
+  --gray-100: #e7e7e7;
+
+  --size-0: 10px;
+  --size-1: 12px;
+  --size-2: 14px;
+  --size-3: 18px;
+  --size-4: 52px;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-page);
+}
+
+/* SECTION-1 ------------------------------------------------------------------------------------------------------------------*/
+
+.section-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  background: url("../assets/bg-section-1.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  background-color: var(--white-50);
+}
+
+.section-1-text {
+  font-size: var(--size-2);
+  color: var(--black-50);
+}
+
+.section-1 > div {
+  width: 100%;
+  display: flex;
+}
+
+.section-1 > div:first-child {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-1-upload {
+  display: flex;
+  align-items: center;
+  background-color: var(--white-50);
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.section-1-edit {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.section-1-edit > div {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: var(--white-50);
+  padding: 8px 10px;
+  border-radius: 4px;
+}
+
+.section-1-edit > div:last-child {
+  padding: 8px 15px;
+}
+
+.section-1-edit > div p,
+i {
+  color: var(--gray-50);
+  font-size: var(--size-1);
+}
+
+.section-1-edit > div:hover,
+.section-1-upload:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.section-1 > div:first-child > div > div {
+  display: flex;
+}
+
+.section-1 > div:last-child {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 6rem;
+  gap: 1rem;
+}
+
+.section-1 > div:last-child > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.section-1-div-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-1-div-name span {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.section-1-div-name h1 {
+  font-size: var(--size-3);
+  color: var(--black-50);
+}
+
+.section-1-div-name p {
+  font-size: var(--size-1);
+  color: var(--gray-50);
+}
+
+.section-1-div-name span > img {
+  width: 16px;
+  height: 16px;
+}
+
+.section-1-div-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.section-1-div-buttons button {
+  border: none;
+  background: var(--linear-buttons);
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  color: var(--white-50);
+  font-size: var(--size-1);
+}
+
+.section-1-div-buttons button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.section-1-div-buttons button:last-child {
+  border: none;
+  border: 1px solid var(--blue-50);
+  background: var(--white-50);
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  color: var(--blue-50);
+}
+
+/* SECTION-2 ------------------------------------------------------------------------------------------------------------------*/
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.section-2 > div {
+  display: flex;
+  height: 40px;
+  border-bottom: 1px solid var(--gray-100);
+  align-items: flex-end;
+}
+
+.section-2 p {
+  border: none;
+}
+
+.section-2 button {
+  border: none;
+  padding: 1rem 4.5rem;
+  background-color: var(--white-50);
+  border-right: 1px solid;
+  border-top: 1px solid;
+  border-color: var(--gray-100);
+  font-size: var(--size-1);
+  color: var(--black-50);
+}
+
+.section-2 button:first-child {
+  border: none;
+  height: 55px;
+  padding: 0 6.5rem;
+  border-radius: 5px 5px 0 0;
+  background: var(--linear-buttons);
+}
+
+.section-2 button:first-child p {
+  color: var(--white-50);
+}
+
+.section-2 button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.section-2 button:last-child {
+  border-radius: 0 5px 0 0;
+}
+
+.section-2 article {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #fff;
+  gap: 1rem;
+}
+
+.section-2 article h1 {
+  color: var(--black-50);
+  font-size: var(--size-3);
+}
+
+.section-2 article p {
+  color: var(--black-50);
+  font-size: var(--size-2);
+}
+
+.section-2 article span {
+  color: var(--blue-50);
+  font-size: var(--size-1);
+}
+
+/* section-3 ------------------------------------------------------------------------------------------------------------------*/
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: var(--white-50);
+  gap: 1.5rem;
+}
+
+.section-3 article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-3-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  text-align: left;
+}
+
+.section-3-card h3 {
+  color: var(--black-50);
+  font-size: var(--size-2);
+}
+
+.section-3-card p {
+  color: var(--black-50);
+  font-size: var(--size-0);
+}
+
+.section-3 > div {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.section-3 > div h1 {
+  font-size: var(--size-3);
+  color: var(--black-50);
+}
+
+.section-3 > div p {
+  font-size: var(--size-3);
+  color: var(--gray-50);
+}
+
+.section-3 span {
+  font-size: var(--size-1);
+  color: var(--blue-50);
+}
+
+/* section-4 ------------------------------------------------------------------------------------------------------------------*/
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: var(--white-50);
+}
+
+.section-4 article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-4 > h1 {
+  font-size: var(--size-3);
+  color: var(--black-50);
+}
+
+.section-4-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem 1rem;
+  border: 1px solid var(--gray-100);
+  border-radius: 5px;
+  width: 250px;
+}
+
+.section-4-card span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-4-card h3 {
+  font-size: var(--size-2);
+  color: var(--black-50);
+}
+
+.section-4-card h4 {
+  font-size: var(--size-2);
+  color: var(--blue-50);
+}
+
+.section-4-card h1 {
+  font-size: var(--size-0);
+  color: var(--white-50);
+  font-weight: 400;
+}
+
+.section-4-card > div {
+  display: flex;
+}
+
+.section-4-card img {
+  width: 24px;
+  height: 24px;
+}
+
+.section-4-card img:nth-child(n + 2) {
+  margin-left: -12px;
+}
+
+.section-4-card-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background-color: var(--blue-50);
+  border-radius: 100%;
+  font-weight: 400;
+  color: var(--white-50);
+  margin-left: -12px;
+}
+
+.section-4-span {
+  font-size: var(--size-1);
+  color: var(--blue-50);
+}
+
+/* section-5 ------------------------------------------------------------------------------------------------------------------*/
+.section-5 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  padding: 2rem;
+  gap: 1rem;
+  background-color: var(--white-50);
+}
+
+.section-5-card {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem 0;
+  align-items: flex-start;
+}
+
+.section-5-card:last-child {
+  border-top: 1px solid var(--gray-100);
+}
+
+.section-5-card img {
+  width: 54px;
+  height: 54px;
+}
+
+.section-5-card span {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.section-5-card > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.section-5 h1 {
+  font-size: var(--size-3);
+  color: var(--black-50);
+}
+
+.section-5-card h1 {
+  font-size: var(--size-2);
+  color: var(--black-50);
+}
+
+.section-5-card h3,
+h4,
+h5,
+p {
+  font-size: var(--size-0);
+  color: var(--black-50);
+  font-weight: 400;
+}
+
+.section-5-card h3 {
+  font-weight: bold;
+}
+
+.section-5-card h5 {
+  color: var(--blue-50);
+  font-weight: bold;
+}
+
+/* section-6 ------------------------------------------------------------------------------------------------------------------*/
+.section-6 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  padding: 2rem;
+  gap: 1rem;
+  background-color: var(--white-50);
+}
+
+.section-6-card {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem 0;
+  align-items: flex-start;
+}
+
+.section-6-card img {
+  width: 54px;
+  height: 54px;
+}
+
+.section-6-card > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.section-6-card h1,
+h3,
+h4,
+p {
+  font-weight: 400;
+  color: var(--black-50);
+  font-size: var(--size-0);
+}
+
+.section-6-card h3,
+p {
+  font-weight: bold;
+}
+
+.section-6-card h1 {
+  font-size: var(--size-2);
+}
+
+.section-6 h1 {
+  font-size: var(--size-3);
+  color: var(--black-50);
+}
+
+/* section-7 ------------------------------------------------------------------------------------------------------------------*/
+.section-7 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 2rem;
+  gap: 0.5rem;
+  background-color: var(--white-50);
+}
+
+.section-7 span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-7 span p {
+  color: var(--black-50);
+  font-size: var(--size-1);
+}
+
+.section-7 span h4 {
+  color: var(--blue-50);
+  font-size: var(--size-1);
+  font-weight: 400;
+}
+
+.section-7 h1 {
+  font-size: var(--size-4);
+  color: var(--blue-50);
+}
+
+.section-7 h5 {
+  font-size: var(--size-2);
+  color: var(--black-50);
+}
+
+/* section-8 ------------------------------------------------------------------------------------------------------------------*/
+.section-8 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 2rem;
+  gap: 1rem;
+  background-color: var(--white-150);
+}
+
+.section-8 span p {
+  color: var(--black-50);
+  font-size: var(--size-1);
+}
+
+.section-8 span h4 {
+  color: var(--blue-50);
+  font-size: var(--size-1);
+  font-weight: 400;
+}
+
+.section-8 > span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.section-8-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.section-8-card h1 {
+  font-size: var(--size-2);
+  color: var(--black-50);
+}
+
+.section-8-card p {
+  font-size: var(--size-0);
+  color: var(--black-50);
+  font-weight: 400;
+}
+
+.section-8-card img {
+  width: 52px;
+  height: 52px;
+}
+
+/* section-9 ------------------------------------------------------------------------------------------------------------------*/
+.section-9 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 2rem;
+  gap: 1rem;
+  background-color: var(--white-150);
+}
+
+.section-9-card {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.section-9-card img {
+  width: 80px;
+  height: 52px;
+}
+
+.section-9-card h1 {
+  font-size: var(--size-2);
+  color: var(--black-50);
+}
+
+.section-9-card p {
+  font-size: var(--size-0);
+  color: var(--black-50);
+  font-weight: 400;
+}
+
+.section-9 h1 {
+  font-size: var(--size-1);
+  color: var(--black-50);
+}
+
+.section-9 h2 {
+  font-size: var(--size-1);
+  color: var(--blue-50);
+}

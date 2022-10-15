@@ -1,0 +1,127 @@
+:root {
+  --linear-buttons: linear-gradient(180deg, #0077b5 0%, #0e6795 100%);
+
+  --bg-page: #e5e5e5;
+
+  --white-50: #fff;
+  --white-100: #f7f9fb;
+  --white-150: #fcfdfd;
+
+  --black-50: #181818;
+  --blue-50: #0275b1;
+
+  --gray-50: #747474;
+  --gray-100: #e7e7e7;
+
+  --size-0: 10px;
+  --size-1: 12px;
+  --size-2: 14px;
+  --size-3: 18px;
+  --size-4: 52px;
+}
+
+/* footer ------------------------------------------------------------------------------------------------------------------*/
+footer {
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  background-color: var(--white-100);
+}
+
+footer p {
+  font-size: var(--size-1);
+  color: var(--black-50);
+  font-weight: 400;
+}
+
+footer p:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+footer > div {
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+footer > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  gap: 0.5rem;
+}
+
+footer h5 {
+  height: 40px;
+}
+
+footer button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  width: 170px;
+  height: 32px;
+  border: none;
+  background-color: var(--blue-50);
+  border-radius: 5px;
+}
+
+footer button h1 {
+  color: var(--white-50);
+}
+
+footer button:last-child {
+  border: 1px solid var(--blue-50);
+
+  background-color: transparent;
+}
+
+footer button:last-child h1 {
+  color: var(--blue-50);
+}
+
+footer button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+footer button i {
+  width: 16px;
+  height: 16px;
+}
+
+footer button h1 {
+  font-size: 12px;
+}
+
+footer select {
+  width: 270px;
+  height: 32px;
+  border: none;
+  background-color: var(--white-50);
+  color: var(--black-50);
+  font-weight: bold;
+}
+
+footer select:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.linkedIn {
+  font-size: var(--size-2);
+  color: var(--black-50);
+  font-weight: bold;
+}
+
+footer h5 {
+  font-size: var(--size-1);
+  color: var(--black-50);
+  font-weight: bold;
+}

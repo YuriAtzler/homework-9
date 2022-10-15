@@ -5,16 +5,413 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../styles/profile.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
     <title>Profile</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="header-item-01">
+        <div class="logo"><img src="../assets/logo.png" alt="" /></div>
+
+        <hr />
+
+        <ul class="nav">
+          <li>
+            <i class="fa-solid fa-rss header-icon"></i>
+            <p>FEED</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-user-group header-icon"></i>
+            <p>NETWORK</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-suitcase header-icon"></i>
+            <p>JOBS</p>
+          </li>
+          <li>
+            <i class="fa-regular fa-message header-icon"></i>
+            <p>CHAT</p>
+          </li>
+          <li>
+            <i class="fa-regular fa-bell header-icon"></i>
+            <p>NOTICES</p>
+          </li>
+        </ul>
+
+        <hr />
+
+        <div class="header-search">
+          <i class="fa-solid fa-magnifying-glass header-icon"></i>
+          <input type="text" value="Search" />
+        </div>
+      </div>
+      <div class="header-item-02">
+        <hr />
+
+        <div class="header-you">
+          <div class="bloco-img">
+            <img src="../assets/avatar.png" alt="" />
+          </div>
+          <div class="bloco-texto">
+            <div class="l1">
+              <span>D. Kargaev</span
+              ><span class="text-opacity-20" style="margin-left: 10px"
+                >YOU</span
+              >
+            </div>
+            <div class="l2">
+              <span class="texto-cinza">367 views today</span
+              ><span class="texto-verde">
+                32 <i class="fa-solid fa-arrow-right"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="header-other">
+          <div class="other-img-container">
+            <img src="../assets/more-horizontal.png" alt="" />
+          </div>
+          <p>OTHER</p>
+        </div>
+        <hr />
+      </div>
+    </header>
+
     <main>
       <div class="grid">
-        <div class="grid-body"></div>
-        <aside class="grid-aside"></aside>
+        <div class="grid-body">
+          <!-- section-1 -->
+          <section class="section-1">
+            <div>
+              <div class="section-1-upload">
+                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+              </div>
+              <div class="section-1-edit">
+                <div>
+                  <i class="fa-regular fa-pen-to-square"></i>
+                  <p>EDIT PROFILE</p>
+                </div>
+                <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+              </div>
+            </div>
+            <div>
+              <img src="../assets/avatar.png" alt="avatar" />
+              <div>
+                <div class="section-1-div-name">
+                  <span
+                    ><h1>Dmitry Kargaev</h1>
+                    <img src="../assets/logo-gold.png" alt="logo-gold" />
+                  </span>
+                  <span
+                    ><img
+                      src="../assets/icon-arrow-right.png"
+                      alt="icon-arrow"
+                    />
+                    <p>Saint Petersburg, Russian Federation</p>
+                  </span>
+                </div>
+                <p class="section-1-text">
+                  Freelance UX/UI designer, 80+ projects in web design, mobile
+                  apps (iOS & android) and creative projects. Open to offers.
+                </p>
+                <div class="section-1-div-buttons">
+                  <button>CONTACT INFO</button
+                  ><button>1,043 CONNECTIONS</button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- section-2 -->
+          <section class="section-2">
+            <div>
+              <button class="section-2-button"><p>PROFILE</p></button>
+              <button><p>ACTIVITY & INTERESTS</p></button>
+              <button><p>ARTICLES (3)</p></button>
+            </div>
+            <article>
+              <h1>About</h1>
+              <p>
+                I'm more experienced in eCommerce web projects and mobile
+                banking apps, but also like to work with creative projects, such
+                as landing pages or unusual corporate websites.
+              </p>
+              <span>SEE MORE</span>
+            </article>
+          </section>
+
+          <!-- section-3 -->
+          <section class="section-3">
+            <div>
+              <h1>Projects</h1>
+              <p>3 of 12</p>
+            </div>
+            <article>
+              <div class="section-3-card">
+                <img src="../assets/card-1.png" alt="card-1" />
+                <h3>Zara redesign concept</h3>
+                <p>UX/UI design, 15.07.2019</p>
+              </div>
+              <div class="section-3-card">
+                <img src="../assets/card-2.png" alt="card-2" />
+                <h3>SCTHON event brand identity</h3>
+                <p>Graphic design, 03.31.2019</p>
+              </div>
+              <div class="section-3-card">
+                <img src="../assets/card-3.png" alt="card-3" />
+                <h3>Drozd. Brand identity. 2016</h3>
+                <p>Graphic design, 03.04.2016</p>
+              </div>
+            </article>
+            <span>SHOW ALL (12)</span>
+          </section>
+
+          <!-- section-4 -->
+          <section class="section-4">
+            <h1>Skills & Endoresments</h1>
+            <article>
+              <div class="section-4-card">
+                <span>
+                  <h3>User experience (UX)</h3>
+                  <h4>6</h4>
+                </span>
+                <div>
+                  <img src="../assets/person.png" alt="person" />
+                  <img src="../assets/person.png" alt="person" />
+                  <img src="../assets/person.png" alt="person" />
+                  <img src="../assets/person.png" alt="person" />
+                  <img src="../assets/person.png" alt="person" />
+                  <div class="section-4-card-circle"><h1>+1</h1></div>
+                </div>
+              </div>
+              <div class="section-4-card">
+                <span>
+                  <h3>User interface (UI)</h3>
+                  <h4>7</h4>
+                </span>
+                <div>
+                  <img src="../assets/person.png" alt="person" />
+                  <img src="../assets/person.png" alt="person" />
+                  <img src="../assets/person.png" alt="person" />
+                  <img src="../assets/person.png" alt="person" />
+                  <img src="../assets/person.png" alt="person" />
+                  <div class="section-4-card-circle"><h1>+2</h1></div>
+                </div>
+              </div>
+              <div class="section-4-card">
+                <span>
+                  <h3>Brand identity</h3>
+                  <h4>5</h4>
+                </span>
+                <div>
+                  <img src="../assets/person.png" alt="person" />
+                  <img src="../assets/person.png" alt="person" />
+                  <img src="../assets/person.png" alt="person" />
+                  <img src="../assets/person.png" alt="person" />
+                  <img src="../assets/person.png" alt="person" />
+                </div>
+              </div>
+            </article>
+            <span class="section-4-span">SHOW ALL (12)</span>
+          </section>
+
+          <!-- section-5 -->
+          <section class="section-5">
+            <h1>Experience</h1>
+            <div class="section-5-card">
+              <img src="../assets/section-5-1.png" alt="globo" />
+              <div>
+                <h1>Freelance UX/UI designer</h1>
+                <span
+                  ><h3>Self Employed</h3>
+                  <h4>Around the world</h4></span
+                >
+                <span
+                  ><h4>Jun 2016 — Present</h4>
+                  <h5>3 yrs 3 mos</h5></span
+                >
+                <p>
+                  Work with clients and web studios as freelancer. Work in next
+                  areas: eCommerce web projects; creative landing pages; iOs and
+                  Android apps; corporate web sites and corporate identity
+                  sometimes.
+                </p>
+              </div>
+            </div>
+            <div class="section-5-card">
+              <img src="../assets/section-5-2.png" alt="up" />
+              <div>
+                <h1>UX/UI designer</h1>
+                <span
+                  ><h3>Upwork</h3>
+                  <h4>International</h4></span
+                >
+                <span
+                  ><h4>Jun 2019 — Present</h4>
+                  <h5>3 mos</h5></span
+                >
+                <p>
+                  New experience with Upwork system. Work in next areas: UX/UI
+                  design, graphic design, interaction design, UX research.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- section-6 -->
+          <section class="section-6">
+            <h1>Education</h1>
+            <div class="section-6-card">
+              <img src="../assets/education.png" alt="education" />
+              <div>
+                <h1>Moscow State Linguistic University</h1>
+                <h3>
+                  Bachelor's degree Field Of StudyComputer and Information
+                  Systems Security/Information Assurance
+                </h3>
+                <h4>2013 — 2017</h4>
+                <p>Additional English classes and UX profile courses.</p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- aside -->
+        <aside class="grid-aside">
+          <!-- section-7 -->
+          <section class="section-7">
+            <span
+              ><p>your dashboard</p>
+              <h4>go to stats</h4></span
+            >
+            <h1>367</h1>
+            <h5>views today</h5>
+            <h1>15</h1>
+            <h5>posts views</h5>
+            <h1>9</h1>
+            <h5>search appereances</h5>
+          </section>
+
+          <!-- section-8 -->
+          <section class="section-8">
+            <span
+              ><p>visitors</p>
+              <h4>view all</h4></span
+            >
+            <div class="section-8-card">
+              <img src="../assets/visitors.png" alt="person" />
+              <span
+                ><h1>Darlene Black</h1>
+                <p>HR-manager, 10 000 connec...</p></span
+              >
+            </div>
+            <div class="section-8-card">
+              <img src="../assets/visitors.png" alt="person" />
+              <span
+                ><h1>Darlene Black</h1>
+                <p>HR-manager, 10 000 connec...</p></span
+              >
+            </div>
+            <div class="section-8-card">
+              <img src="../assets/visitors.png" alt="person" />
+              <span
+                ><h1>Darlene Black</h1>
+                <p>HR-manager, 10 000 connec...</p></span
+              >
+            </div>
+            <div class="section-8-card">
+              <img src="../assets/visitors.png" alt="person" />
+              <span
+                ><h1>Darlene Black</h1>
+                <p>HR-manager, 10 000 connec...</p></span
+              >
+            </div>
+          </section>
+
+          <!-- section-9 -->
+          <section class="section-9">
+            <h1>You may like these courses</h1>
+            <div class="section-9-card">
+              <img src="../assets/video.png" alt="video" />
+              <span
+                ><h1>UX Foundations: Prototyping</h1>
+                <p>27,959 viewers</p></span
+              >
+            </div>
+            <div class="section-9-card">
+              <img src="../assets/video.png" alt="video" />
+              <span
+                ><h1>Designing with Adobe XD and pro</h1>
+                <p>9,122 viewers</p></span
+              >
+            </div>
+            <div class="section-9-card">
+              <img src="../assets/video.png" alt="video" />
+              <span
+                ><h1>UX Foundations: Styles and GUIs</h1>
+                <p>13,858 viewers</p></span
+              >
+            </div>
+            <h2>See all recomendations</h2>
+          </section>
+        </aside>
       </div>
     </main>
-    <footer></footer>
+
+    <!-- footer -->
+    <footer>
+      <div>
+        <div>
+          <img src="../assets/logo.png" alt="logo" />
+          <p class="linkedIn">LinkedIn</p>
+        </div>
+        <div>
+          <h5>Navigation</h5>
+          <p>About</p>
+          <p>Careers</p>
+          <p>Adverting</p>
+          <p>Small Business</p>
+        </div>
+        <div>
+          <h5></h5>
+          <p>Talent Solutions</p>
+          <p>Marketing solutions</p>
+          <p>Sales Solutions</p>
+          <p>Safery Center</p>
+        </div>
+        <div>
+          <h5></h5>
+          <p>Community Guidelines</p>
+          <p>Privacy & Terms</p>
+          <p>Mobile App</p>
+        </div>
+        <div>
+          <h5>Fast acess</h5>
+          <button>
+            <h1>QUESTIONS?</h1>
+            <i class="fa-solid fa-question"></i>
+          </button>
+          <button>
+            <h1>SETTINGS</h1>
+            <i class="fa-solid fa-gear"></i>
+          </button>
+        </div>
+        <div>
+          <h5>Language</h5>
+          <select name="language">
+            <option value="english">ENGLISH</option>
+          </select>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
