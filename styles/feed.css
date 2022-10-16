@@ -24,7 +24,7 @@ span {
 main {
   display: flex;
   flex-direction: column;
-  background-color:pink;
+  background-color: var(--branco-100);
   padding-top: 40px;
 }
 
