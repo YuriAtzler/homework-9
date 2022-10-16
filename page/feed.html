@@ -7,72 +7,75 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../styles/reset.css" />
   <link rel="stylesheet" href="../styles/feed.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+  <link rel="stylesheet" href="../styles/header.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <title>Feed</title>
 </head>
 
 <body>
   <header>
-    <div class="header-item-01"> 
+    <div class="header-item-01">
       <div class="logo"><img src="../assets/logo.png" alt=""></div>
 
-    <hr>
-
-    <ul class="nav">
-      <li>
-        <i class="fa-solid fa-rss header-icon"></i>
-        <p>FEED</p>
-      </li>
-      <li>
-        <i class="fa-solid fa-user-group header-icon"></i>
-        <p>NETWORK</p>
-      </li>
-      <li>
-        <i class="fa-solid fa-suitcase header-icon"></i>
-        <p>JOBS</p>
-      </li>
-      <li>
-        <i class="fa-regular fa-message header-icon"></i>
-        <p>CHAT</p>
-      </li>
-      <li>
-        <i class="fa-regular fa-bell header-icon"></i>
-        <p>NOTICES</p>
-      </li>
-    </ul>
-
-    <hr>
-
-    <div class="header-search">
-      <i class="fa-solid fa-magnifying-glass header-icon"></i>
-      <input type="text" value="Search">
-    </div>
-    </div>
-    <div class="header-item-02">
       <hr>
 
-    <div class="header-you">
-      <div class="bloco-img">
-        <img src="../assets/avatar.png" alt="">
-      </div>
-      <div class="bloco-texto">
-        <div class="l1">
-          <span>D. Kargaev</span><span class="text-opacity-20" style="margin-left: 10px ;">YOU</span>
-        </div>
-        <div class="l2">
-          <span class="texto-cinza">367 views today</span><span class="texto-verde"> 32 <i
-              class="fa-solid fa-arrow-right"></i></span>
-        </div>
+      <ul class="nav">
+        <a href="../page/feed.html">
+          <i class="fa-solid fa-rss header-icon"></i>
+          <p>FEED</p>
+        </a>
+        <a href="#">
+          <i class="fa-solid fa-user-group header-icon"></i>
+          <p>NETWORK</p>
+        </a>
+        <a href="#">
+          <i class="fa-solid fa-suitcase header-icon"></i>
+          <p>JOBS</p>
+        </a>
+        <a href="#">
+          <i class="fa-regular fa-message header-icon"></i>
+          <p>CHAT</p>
+        </a>
+        <a href="#">
+          <i class="fa-regular fa-bell header-icon"></i>
+          <p>NOTICES</p>
+        </a>
+      </ul>
+
+      <hr>
+
+      <div class="header-search">
+        <i class="fa-solid fa-magnifying-glass header-icon"></i>
+        <input type="text" placeholder="Search">
       </div>
     </div>
+    <div class="header-item-02">
+      
+      <hr>
+      
+      <div class="header-you">
+        <div class="bloco-img">
+          <img src="../assets/avatar.png" alt="">
+        </div>
+        <div class="bloco-texto">
+          <div class="l1">
+            <span>D. Kargaev</span><span class="text-opacity-20" style="margin-left: 10px ;">YOU</span>
+          </div>
+          <div class="l2">
+            <span class="texto-cinza">367 views today</span><span class="texto-verde"> 32 <i
+                class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
 
-    <hr>
+      <hr>
 
-    <div class="header-other">
-      <div class="other-img-container"><img src="../assets/more-horizontal.png" alt=""></div>
-      <p>OTHER</p>
-    </div>
-    <hr>
+      <div class="header-other">
+        <div class="other-img-container"><img src="../assets/more-horizontal.png" alt=""></div>
+        <p>OTHER</p>
+      </div>
+      <hr>
     </div>
   </header>
 
@@ -80,32 +83,361 @@
   <main>
     <div class="grid">
       <div class="grid-body">
+
+        <!-- ------------------- section 01 ------------------- -->
         <section class="section-01">
           <div class="section-01-item-01">
             <h3>new post</h3>
             <hr>
           </div>
-          
+
           <div class="section-01-item-02">
-            <input type="text" value="What’s on your mind?">
-            
+            <input type="text" placeholder="What’s on your mind?">
+            <div class="icons">
+
+              <i class="fa-solid fa-paperclip"></i>
+              <i class="fa-regular fa-image"></i>
+              <i class="fa-solid fa-film"></i>
+              <div class="invite"><i class="fa-solid fa-paper-plane"></i></div>
+            </div>
           </div>
-
         </section>
-        <div class="line">
-
+        <div class="line-short-by">
+          <hr>
+          <div class="line-text">
+            <div>SORT BY:</div>
+            <div class="texto-azul">TRENDING <i class="fa-solid fa-chevron-down"></i></div>
+          </div>
+          <hr>
         </div>
-        <section class="section-02"></section>
-        <section class="section-03"></section>
-        <section class="section-04"></section>
 
+        <!-- ------------------- section 02 ------------------- -->
+        <section class="section section-02">
+          <div class="nomes-top">
+            <div class="texto">
+              <a class="texto-azul" href="#">Ted Bell</a>
+              <p class="virgula">,</p>
+              <a class="texto-azul" href="#">Annette Neguyen</a>
+              <p>and</p>
+              <a class="texto-azul" href="#">Cody Hawkins</a>
+              <p>like this</p>
+            </div>
+            <a class="container-img-more" href="#">
+              <img src="../assets/more-horizontal.png" alt="">
+            </a>
+          </div>
+          <div class="container">
+            <div class="foto-com-nome">
+              <div class="img"><img src="/assets/visitors.png" alt=""></div>
+              <div class="texto">
+                <h3>Theresa Steward</h3>
+                <span>iOS developer</span>
+              </div>
+
+            </div>
+            <p>What did the Dursleys care if Harry lost his place on the House Quidditch team because he hadn’t
+              practiced all summer? What was it to the Dursleys if Harry went back to school without any of his homework
+              done? The Dursleys were what wizards called Muggles (not a drop of magical blood in their veins).</p>
+            <a class=" read-more texto-azul" href="#">READ MORE</a>
+          </div>
+          <div class="share">
+            <div class="comments">
+              <div>
+                <i class="fa-regular fa-thumbs-up texto-azul"></i><span> 42</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-comment texto-azul"></i><span> 9</span>
+              </div>
+            </div>
+            <a class="item-share" href="#">
+              <i class="fa-solid fa-share-nodes texto-azul"></i><span> SHARE</span>
+            </a>
+          </div>
+        </section>
+
+        <!-- ------------------- section 3 ------------------- -->
+        <section class=" section section-03">
+          <div class="nomes-top">
+            <div class="texto">
+              <a class="texto-azul" href="#">Audrey Alexander</a>
+              <p> comment this</p>
+            </div>
+            <a class="container-img-more" href="#">
+              <img src="../assets/more-horizontal.png" alt="">
+            </a>
+          </div>
+          <div class="container">
+            <div class="foto-com-nome">
+              <div class="img"><img src="../assets/kyle.png" alt=""></div>
+              <div class="texto">
+                <h3>Kyle Fisher</h3>
+                <span>Product designer at Commandor Corp.</span>
+              </div>
+            </div>
+            <p>How’s your day going, guys?</p>
+            <img src="../assets/rectangle-3.png" alt="">
+          </div>
+          <div class="share">
+            <div class="comments">
+              <div>
+                <i class="fa-regular fa-thumbs-up texto-azul"></i><span> 12</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-comment texto-azul"></i><span> 3</span>
+              </div>
+            </div>
+            <a class="item-share" href="#">
+              <i class="fa-solid fa-share-nodes texto-azul"></i><span> SHARE</span>
+            </a>
+          </div>
+        </section>
+
+        <!-- ------------------- section 4 ------------------- -->
+        <section class="section section-04">
+          <div class="nomes-top">
+            <div class="texto">
+              <p>High rated post from your feed</p>
+            </div>
+            <div>
+              <img src="../assets/more-horizontal.png" alt="">
+            </div>
+          </div>
+          <div class="container">
+            <div class="foto-com-nome">
+              <div class="img"><img src="../assets/brandon.png" alt=""></div>
+              <div class="texto">
+                <h3>Brandon Wilson</h3>
+                <span>Senior UX designer</span>
+              </div>
+            </div>
+            <p>There is some new guidelines for iOS</p>
+            <div class="arquivos">
+              <a class="container-arquivos" href="#">
+                <div class="item-01-arquivos" href="#">
+                  <img src="../assets/pasta.png" alt="">
+                  <div>
+                    <h3>iOS 11 guidelines for UX/UI designers</h3>
+                    <span>PDF file, 324 kb</span>
+                  </div>
+                </div>
+                <div class="item-02-arquivos">
+                  <i class="fa-solid fa-cloud-arrow-down texto-azul"></i>
+                </div>
+              </a>
+              <a class="container-arquivos" href="#">
+                <div class="item-01-arquivos">
+                  <img src="../assets/pasta.png" alt="">
+                  <div>
+                    <h3>iOS 11 guidelines for UX/UI designers</h3>
+                    <span>PDF file, 324 kb</span>
+                  </div>
+                </div>
+                <div class="item-02-arquivos">
+                  <i class="fa-solid fa-cloud-arrow-down texto-azul"></i>
+                <div>
+              </div>
+            </div>
+          </a>
+          </div>
+          </div>
+          <div class="share">
+            <div class="comments">
+              <div>
+                <i class="fa-regular fa-thumbs-up texto-azul"></i><span> 12</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-comment texto-azul"></i><span> 3</span>
+              </div>
+            </div>
+            <a class="item-share" href="#">
+              <i class="fa-solid fa-share-nodes texto-azul"></i><span> SHARE</span>
+            </a>
+          </div>
+        </section>
+
+        <!-- --------------- section 5 -------------- -->
+        <section class=" section section-05">
+          <div class="nomes-top">
+            <div class="texto">
+              <p> First post from </p>
+              <a class="texto-azul" href="#">Audrey Alexander</a>
+            </div>
+            <a class="container-img-more" href="#">
+              <img src="../assets/more-horizontal.png" alt="">
+            </a>
+          </div>
+          <div class="container">
+            <div class="foto-com-nome">
+              <div class="img"><img src="../assets/audrey.png" alt=""></div>
+              <div class="texto">
+                <h3>Audrey Alexander</h3>
+                <span>Team lead at Google</span>
+              </div>
+            </div>
+            <p>The bun runs along the road and meets a wolf. «Little bun, little bun, I want to eat you!» says the wolf.
+              «I ran away from Grandfather, I ran away from Grandmother, I ran away from the hare. And I can run away
+              from you, grey wolf!» says the bun and runs away.</p>
+          </div>
+          <div class="share">
+            <div class="comments">
+              <div>
+                <i class="fa-regular fa-thumbs-up texto-azul"></i><span> 12</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-comment texto-azul"></i><span> 3</span>
+              </div>
+            </div>
+            <a class="item-share" href="#">
+              <i class="fa-solid fa-share-nodes texto-azul"></i><span> SHARE</span>
+            </a>
+          </div>
+        </section>
       </div>
-      <aside class="grid-aside"></aside>
+
+      <!-- -------------------- aside -------------------- -->
+      <aside class="grid-aside">
+
+        <!-- --------------- section 01 aside --------------- -->
+        <section class="aside-section-01">
+          <img class="bg" src="../assets/bg-section-1.png" alt="">
+          <img class="foto" src="../assets/avatar.png" alt="">
+          <div class="container-texto">
+            <div class="line-nome">
+              <h3>Dmitry Kargaev</h3>
+              <img class="logo-amarelo" src="../assets/logo-amarelo.png" alt="">
+            </div>
+            <p>Freelance UX/UI designer, 80+ projects in web design, mobile apps (iOS & android) and creative projects.
+              Open to offers.</p>
+          </div>
+        </section>
+
+        <!-- --------------- section 02 aside --------------- -->
+        <section class="aside-section-02-button">
+          <div class="btn">
+            <button>WRITE NEW ARTICLE</button>
+          </div>
+        </section>
+
+        <!-- --------------- section 03 aside --------------- -->
+        <section class="aside-section-03">
+          <div class="topo-section-aside">
+            <span>MY GRUPS</span>
+            <a class="texto-azul" href="#">EDIT LISTS</a>
+          </div>
+          <div class="corpo-section-aside">
+            <a class="card-section-03" href="#">
+              <img src="../assets/education.png" alt="">
+              <span>Moscow State Linguistical University</span>
+            </a>
+            <a class="card-section-03" href="#">
+              <img src="../assets/notebook.png" alt="">
+              <span>Digital freelancers group</span>
+            </a>
+            <a class="card-section-03" href="#">
+              <img src="../assets/touch.png" alt="">
+              <span>Interaction design association</span>
+            </a>
+          </div>
+          <div class="footer-section-aside">
+            <a class="texto-azul" href="#">SHOW ALL (8)</a>
+          </div>
+        </section>
+
+        <!-- --------------- section 04 aside --------------- -->
+        <section class="aside-section-04">
+          <div class="topo-section-aside">
+            <span>FOLLOWED HASTAGS</span>
+          </div>
+          <div class="corpo-section-aside">
+            <span>#work</span> <span>#business</span> <span>#hr</span>
+            <span>#userinterface</span> <span>#digital</span>
+            <span>#userexperience</span> <span>#ux</span>
+            <span>#ui</span> <span>#freelance</span>
+          </div>
+        </section>
+
+        <!-- --------------- section 05 aside --------------- -->
+        <section class="aside-section-05">
+          <div class="topo-section-aside">
+            <span>TRENDING ARTICLES</span>
+          </div>
+          <div class="corpo-section-aside">
+            <a class="card-section-05" href="#">
+
+              <img src="../assets/img-aside-section-5-01.png" alt="">
+              <div class="container-texto-aside">
+                <h4>How I make cool designs?</h4>
+                <span>6,340 viewers</span>
+              </div>
+              
+
+            </a>
+            <a class="card-section-05" href="#">
+              <img src="../assets/img-aside-section-5-02.png" alt="">
+              <div class="container-texto-aside">
+                <h4>Advices for young HR-manage</h4>
+                <span>8,123 viewers</span>
+              </div>
+            </a>
+            <a class="card-section-05" href="#">
+              <img src="../assets/img-aside-section-5-03.png" alt="">
+              <div class="container-texto-aside">
+                <h4>A little about usability testing</h4>
+                <span>3,912 viewers</span>
+              </div>
+            </a>
+          </div>
+        </section>
+      </aside>
     </div>
   </main>
 
   <!-- footer -->
-  <footer></footer>
+  <footer>
+    <div>
+      <div>
+        <img src="../assets/logo.png" alt="logo" />
+        <p class="linkedIn">LinkedIn</p>
+      </div>
+      <div>
+        <h5>Navigation</h5>
+        <p>About</p>
+        <p>Careers</p>
+        <p>Adverting</p>
+        <p>Small Business</p>
+      </div>
+      <div>
+        <h5></h5>
+        <p>Talent Solutions</p>
+        <p>Marketing solutions</p>
+        <p>Sales Solutions</p>
+        <p>Safery Center</p>
+      </div>
+      <div>
+        <h5></h5>
+        <p>Community Guidelines</p>
+        <p>Privacy & Terms</p>
+        <p>Mobile App</p>
+      </div>
+      <div>
+        <h5>Fast acess</h5>
+        <button>
+          <h1>QUESTIONS?</h1>
+          <i class="fa-solid fa-question"></i>
+        </button>
+        <button>
+          <h1>SETTINGS</h1>
+          <i class="fa-solid fa-gear"></i>
+        </button>
+      </div>
+      <div>
+        <h5>Language</h5>
+        <select name="language">
+          <option value="english">ENGLISH</option>
+        </select>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
