@@ -1,31 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&display=swap");
 
 :root {
-    --branco-50: #ffffff;
-    --branco-linhas: #f4f4f4;
-    --branco-100: #f7f9fb;
-    --azul-50: #E9F0F8;
-    --azul-100: #0275b1;
-    --azul-200: #181818;
-    --cinza-50: #cecece;
-    --cinza-100: #747474;
-    --verde: #02b033;
-}
-
-p,
-h1,
-h2,
-h3,
-span {
-  color: var(--azul-200);
+  --branco-50: #ffffff;
+  --branco-linhas: #f4f4f4;
+  --branco-100: #f7f9fb;
+  --azul-50: #e9f0f8;
+  --azul-100: #0275b1;
+  --azul-200: #181818;
+  --cinza-50: #cecece;
+  --cinza-100: #747474;
+  --verde: #02b033;
 }
 
 /* main */
 main {
   display: flex;
   flex-direction: column;
-  background-color: var(--branco-100);
   padding-top: 40px;
+}
+
+body {
+  background-color: var(--branco-100);
 }
 
 .section-01 {
@@ -44,19 +39,18 @@ main hr {
 }
 
 .section-01-item-02 {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .section-01-item-02 input {
-    color: var(--cinza-50);
-    border: none;
-    height: 46px;
-    width: 550px;
-    margin: 0 20px;
-    font-size: 1rem;
+  color: var(--cinza-50);
+  border: none;
+  height: 46px;
+  width: 550px;
+  margin: 0 20px;
+  font-size: 1rem;
 }
 
 ::placeholder {
@@ -64,65 +58,65 @@ main hr {
 }
 
 .section-01-item-02 .icons {
-    display: flex;
-    align-items: center;
-    color: var(--cinza-50);
-    gap: 28px;
-    font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  color: var(--cinza-50);
+  gap: 28px;
+  font-size: 1.125rem;
 }
 
 .invite {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 32px;
-    width: 32px;
-    background-color: var(--azul-100);
-    border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  background-color: var(--azul-100);
+  border-radius: 3px;
 }
 
 .line-short-by {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
-    font-size: 12px;
-    gap:20px
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  font-size: 12px;
+  gap: 20px;
 }
 
-.line-short-by  hr{
-    width: 330px;
-    border-top:  1px solid #E7E7E7;
+.line-short-by hr {
+  width: 330px;
+  border-top: 1px solid #e7e7e7;
 }
 
-.texto-azul{
-    color:var(--azul-100)
+.texto-azul {
+  color: var(--azul-100);
 }
 
 .line-short-by .line-text {
-    display: flex;
-    font-weight: 700;
-    gap: 10px;
+  display: flex;
+  font-weight: 700;
+  gap: 10px;
 }
 
 .section {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--branco-50);
-    border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--branco-50);
+  border-radius: 4px;
 }
 
 .nomes-top {
-    display: flex;
-    justify-content: space-between;
-    padding-right:15px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
 }
 
-.nomes-top .texto{
-    font-size: .625rem;
-    display: flex;
-    gap: 5px;
-    padding: 15px 15px;
+.nomes-top .texto {
+  font-size: 0.625rem;
+  display: flex;
+  gap: 5px;
+  padding: 15px 15px;
 }
 
 .container-img-more {
@@ -131,30 +125,29 @@ main hr {
   justify-content: center;
 }
 
-
 .container {
-    display: flex;
-    flex-direction: column;
-    padding: 15px 30px 0 30px;
-    font-size: .875rem;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 30px 0 30px;
+  font-size: 0.875rem;
+  gap: 15px;
 }
 
 .container span {
-    font-size: .75rem;
+  font-size: 0.75rem;
 }
 
 .container .read-more {
-    padding-top: 15px;
-    font-size: .75rem;
-    height: 46px;
-    font-weight: 700;
+  padding-top: 15px;
+  font-size: 0.75rem;
+  height: 46px;
+  font-weight: 700;
 }
 
 .foto-com-nome {
-    display: flex;
-    gap: 15px;
-    height: 52px;  
+  display: flex;
+  gap: 15px;
+  height: 52px;
 }
 
 .foto-com-nome h3 {
@@ -162,49 +155,49 @@ main hr {
   margin-bottom: 5px;
 }
 
-.share .img{
-    border-radius: 50%;
+.share .img {
+  border-radius: 50%;
 }
 
-.share{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-weight: 700;
-    padding-bottom: 20px;
-    font-size: .75rem;
+.share {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  padding-bottom: 20px;
+  font-size: 0.75rem;
 }
 
 .comments {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .comments div {
-    display: flex;
-    width: 90px;
-    padding-left: 30px;
-    height: 50px;
-    align-items: center;
-    gap: 7.54px;
+  display: flex;
+  width: 90px;
+  padding-left: 30px;
+  height: 50px;
+  align-items: center;
+  gap: 7.54px;
 }
 
 .item-share {
-    padding-right: 30px;
+  padding-right: 30px;
 }
 
 .section {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--branco-50);
-    border-radius: 4px;
-    margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--branco-50);
+  border-radius: 4px;
+  margin-bottom: 20px;
 }
 
-.section-03  .item-01 {
-    display: flex;
-    gap: 5px;
-    padding: 15px 15px;
+.section-03 .item-01 {
+  display: flex;
+  gap: 5px;
+  padding: 15px 15px;
 }
 
 img .container {
@@ -213,18 +206,18 @@ img .container {
 }
 
 .section-03 .container p {
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
 
 .arquivos {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  
+
   height: fit-content;
 }
 
-.container-arquivos{
+.container-arquivos {
   background-color: var(--azul-50);
   display: flex;
   justify-content: space-between;
@@ -248,7 +241,7 @@ img .container {
 .arquivos img {
   width: 42px;
   height: 42px;
-  margin-right: 20px ;
+  margin-right: 20px;
 }
 
 .arquivos h3 {
@@ -256,7 +249,7 @@ img .container {
 }
 
 .aside-section-01 {
-  display: flex ;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -264,13 +257,12 @@ img .container {
   background-color: var(--branco-50);
   text-align: center;
   font-size: 14px;
- 
 }
 
 .aside-section-01 .bg {
   width: 290px;
   height: 120px;
-  border-radius: 4px 4px 0 0 ;
+  border-radius: 4px 4px 0 0;
 }
 
 .aside-section-01 .foto {
@@ -293,7 +285,7 @@ img .container {
 }
 
 .container-texto {
- padding: 16px 21px 26px 29px;
+  padding: 16px 21px 26px 29px;
 }
 
 .aside-section-02-button {
@@ -304,7 +296,6 @@ img .container {
   margin-top: 20px;
   background-color: var(--branco-50);
   border-radius: 4px;
-
 }
 
 .btn button {
@@ -330,7 +321,7 @@ img .container {
   display: flex;
   width: 230px;
   justify-content: space-between;
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-weight: 700;
   margin-bottom: 40px;
   gap: 30px;
@@ -345,8 +336,8 @@ img .container {
   align-items: center;
   font-size: 14px;
   font-weight: 700;
-  height: 80px; 
-  padding: 14px 40px 12px 15px; 
+  height: 80px;
+  padding: 14px 40px 12px 15px;
   gap: 15px;
   background-color: #ffffff;
 }
@@ -360,12 +351,12 @@ img .container {
   display: flex;
   width: 230px;
   justify-content: space-between;
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-weight: 700;
   gap: 30px;
 }
 
-.aside-section-04{
+.aside-section-04 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -376,7 +367,7 @@ img .container {
 }
 
 .aside-section-04 .corpo-section-aside {
-  width:auto;
+  width: auto;
   display: flex;
   gap: 9px;
   flex-wrap: wrap;
@@ -385,7 +376,7 @@ img .container {
 .aside-section-04 .corpo-section-aside span {
   padding: 7px 12px;
   background-color: var(--azul-50);
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
 
 .aside-section-05 {
@@ -407,18 +398,14 @@ img .container {
   height: 52px;
   flex-direction: column;
   color: var(--azul-200);
-  text-overflow:var(--azul-100);
+  text-overflow: var(--azul-100);
 }
-
 
 .card-section-05 {
   display: flex;
   align-items: center;
   font-size: 14px;
-  height: 80px; 
+  height: 80px;
   gap: 15px;
   background-color: #ffffff;
 }
-
-
-

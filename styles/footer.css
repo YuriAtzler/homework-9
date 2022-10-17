@@ -1,8 +1,6 @@
 :root {
   --linear-buttons: linear-gradient(180deg, #0077b5 0%, #0e6795 100%);
 
-  --bg-page: #e5e5e5;
-
   --white-50: #fff;
   --white-100: #f7f9fb;
   --white-150: #fcfdfd;
@@ -94,6 +92,11 @@ footer button:hover {
 footer button i {
   width: 16px;
   height: 16px;
+  color: var(--white-50);
+}
+
+footer button:last-child i {
+  color: var(--blue-50);
 }
 
 footer button h1 {
