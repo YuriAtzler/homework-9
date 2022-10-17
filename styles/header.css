@@ -48,10 +48,6 @@ header a {
   color: var(--azul-200);
 }
 
-header i {
-  color: var(--cinza-100);
-}
-
 header p {
   color: #222;
   font-family: "Montserrat", sans-serif;
