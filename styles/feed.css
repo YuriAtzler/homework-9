@@ -19,6 +19,10 @@ main {
   padding-top: 40px;
 }
 
+a {
+  color: var(--azul-200);
+}
+
 body {
   background-color: var(--branco-100);
 }
@@ -298,7 +302,7 @@ img .container {
   border-radius: 4px;
 }
 
-.btn button {
+.aside-section-02-button .btn {
   border: none;
   background: var(--linear-buttons);
   padding: 0.5rem 2rem;
@@ -373,7 +377,7 @@ img .container {
   flex-wrap: wrap;
 }
 
-.aside-section-04 .corpo-section-aside span {
+.aside-section-04 .corpo-section-aside a {
   padding: 7px 12px;
   background-color: var(--azul-50);
   font-size: 0.75rem;
